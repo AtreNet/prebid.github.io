@@ -29,6 +29,7 @@ mix.browserSync({
     'assets/js/main-bundle.js',
     '_site/**/*.html',
   ],
+  open: false,
   browser: "google chrome"
 });
 
